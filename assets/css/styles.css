@@ -1,0 +1,81 @@
+html, body {
+    background: #184C64;
+    background-image: url(../img/BG.png);
+}
+body * {
+    display: block;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #757575;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    margin: -185px auto 0;
+    top: 50%;
+    position: absolute;
+}
+
+h1.logo {
+    width: 280px;
+    height: 40px;
+    background: url(../img/white-280-40.png) no-repeat;
+    text-indent: -999em;
+    margin: 0 auto;
+}
+h2.tagline {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #EEE;
+    padding: 10px 0 45px;
+}
+p.credits {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #AAA;
+}
+a.neuroware {
+    width: 240px;
+    height: 50px;
+    background: url(../img/neuroware.png) no-repeat;
+    text-indent: -999em;
+}
+p.credits a.neuroware {
+    margin: 20px auto;
+}
+    
+
+/*
+
+FORM
+
+*/
+form.subscribe {
+    padding: 60px 0;
+}
+form.subscribe input {
+    display: inline-block;
+    height: 40px;
+    padding: 0 20px;
+    background: #888;
+    border: 1px solid #000;
+    border-radius: 6px 0 0 6px;
+    width: 300px;
+}
+form.subscribe button.submit {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #222;
+    border: 1px solid #000;
+    border-radius: 0 6px 6px 0;
+    color: #AAA;
+    margin: 0 0 0 -4px;
+}
