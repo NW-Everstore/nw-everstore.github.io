@@ -120,6 +120,7 @@ INTRO
 #abstract p.abstract {
     text-align: justify;
     margin: 5px 0 15px;
+    font-size: 15px;
 }
 #abstract .btn {
     border: 2px solid #AAA;
